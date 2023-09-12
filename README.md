@@ -1,3 +1,15 @@
+# Summary
+
+_Blazing Pizzas_ is a web-app that simulates ordering pizzas online.
+
+# Purpose
+
+The purpose of this project is to showcase building a web application with C#, ASP.NET Core, Blazor, Docker Containers, and Azure. With this project, I learned how to build a web application with the Blazor web user-interface framework. I discovered the key features of the Blazor framework, pages, and components to make the "Blazing Pizza" website. I also learned how to set up my development environment, VS Code, and build with Blazor and C#. This web app was designed with user interface elements by using Blazor components. These components obtain data and display it to the user on dynamic webpages. The web-app manages request routing by using the @page directive, Blazor routing, NavLink, and NavMenu components. Layouts are used to improve the app by reducing duplicate code. The web-app also uses forms with event handlers, validating the data a user submits. Finally, this project interpolates Blazor apps with JavaScript code, uses templated components, and handles component lifecycle events. The following modules were the primary resources for learning:
+
+1. [Building Web Apps with Blazor](https://learn.microsoft.com/en-us/training/paths/build-web-apps-with-blazor/)
+
+2. [Deploy and Run a Containerized Web App with Azure App Service](https://learn.microsoft.com/en-us/training/modules/deploy-run-container-app-service/)
+
 
 # Contributing
 

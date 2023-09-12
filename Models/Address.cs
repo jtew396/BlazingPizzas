@@ -19,7 +19,7 @@ public class Address
     public string City { get; set; } = default!;
 
     [Required, MaxLength(20)]
-    public string Region { get; set; } = default!;
+    public string State { get; set; } = default!;
 
     [Required, RegularExpression(@"^([0-9]{5})$")]
     public string PostalCode { get; set; } = default!;
