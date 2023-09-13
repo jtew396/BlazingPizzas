@@ -52,5 +52,5 @@
 
     protected override async Task OnParametersSetAsync() =>
         ordersWithStatus = await HttpClient.GetFromJsonAsync<List<OrderWithStatus>>(
-            $"{NavigationManager.BaseUri}orders");
+            "http://host.docker.internal:8080/orders");
 }

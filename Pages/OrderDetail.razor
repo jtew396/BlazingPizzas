@@ -72,7 +72,7 @@
     {
         try
         {
-            orderWithStatus = await HttpClient.GetFromJsonAsync<OrderWithStatus>($"{NavigationManager.BaseUri}orders/{OrderId}");
+            orderWithStatus = await HttpClient.GetFromJsonAsync<OrderWithStatus>($"http://host.docker.internal:8080/orders/{OrderId}");
         }
         catch (Exception ex)
         {

@@ -70,7 +70,7 @@
 
     protected override async Task OnInitializedAsync() => 
         specials = await HttpClient.GetFromJsonAsync<List<PizzaSpecial>>(
-            $"{NavigationManager.BaseUri}specials");
+            "http://host.docker.internal:8080/specials");
 
     async Task RemovePizzaConfirmation(Pizza removePizza)
     {

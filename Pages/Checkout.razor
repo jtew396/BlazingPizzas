@@ -45,7 +45,7 @@
     async Task PlaceOrder()
     {
         var response = await HttpClient.PostAsJsonAsync(
-            $"{NavigationManager.BaseUri}orders", OrderState.Order);
+            "http://host.docker.internal:8080/orders", OrderState.Order);
         var newOrderId = await response.Content.ReadFromJsonAsync<int>();
 
         OrderState.ResetOrder();
